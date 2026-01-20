@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "minecraft:tnt",
+        "minecraft:arrow"
+    ],
+    "result": {
+        "id": "minecraft:arrow",
+        "count": 1,
+        "components": {
+            "minecraft:custom_name": {
+                "text": "Explosive arrow",
+                "italic": false
+            },
+            "minecraft:item_model": "explosivearrows:explosive_arrow",
+            "minecraft:custom_data": { 
+                "arrow_type": "explosive" 
+            }
+        }
+    }
+}

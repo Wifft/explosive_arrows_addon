@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "min_format": [78, 0],
+        "max_format": [78, 0],
+        "description": "Pack that adds stuff for explosive arrows into MC game"
+    }
+}

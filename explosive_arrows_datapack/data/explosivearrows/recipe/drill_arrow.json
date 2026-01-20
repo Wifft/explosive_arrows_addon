@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "minecraft:arrow",
+        "minecraft:netherite_pickaxe",
+        "minecraft:gunpowder" 
+    ],
+    "result": {
+        "id": "minecraft:arrow",
+        "count": 1,
+        "components": {
+            "minecraft:custom_name": {
+                "text": "Drill arrow",
+                "italic": false
+            },
+            "minecraft:item_model": "explosivearrows:drill_arrow",
+            "minecraft:custom_data": { 
+                "arrow_type": "drill" 
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+execute at @s run summon minecraft:tnt ~ ~ ~ {fuse:0s, explosion_power: 128}
+
+execute at @s run playsound minecraft:entity.generic.explode master @a[distance=..48] ~ ~ ~ 1 1
+execute at @s run particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 0 1
+
+kill @s

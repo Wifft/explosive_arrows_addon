@@ -1,0 +1,1 @@
+execute at @s run particle minecraft:smoke ~ ~ ~ 0 0 0 0.01 5

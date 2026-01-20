@@ -1,0 +1,2 @@
+function explosivearrows:core/tag_new_projectiles
+function explosivearrows:core/route_impact
