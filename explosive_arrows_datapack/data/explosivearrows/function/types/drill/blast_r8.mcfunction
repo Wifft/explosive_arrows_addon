@@ -1,5 +1,4 @@
 execute at @s unless block ~ ~ ~ #explosivearrows:drill_protected run setblock ~ ~ ~ minecraft:air destroy
-
 execute at @s unless block ~0 ~-8 ~0 #explosivearrows:drill_protected run setblock ~0 ~-8 ~0 minecraft:air destroy
 execute at @s unless block ~-3 ~-7 ~-2 #explosivearrows:drill_protected run setblock ~-3 ~-7 ~-2 minecraft:air destroy
 execute at @s unless block ~-3 ~-7 ~-1 #explosivearrows:drill_protected run setblock ~-3 ~-7 ~-1 minecraft:air destroy
@@ -2109,8 +2108,3 @@ execute at @s unless block ~3 ~7 ~0 #explosivearrows:drill_protected run setbloc
 execute at @s unless block ~3 ~7 ~1 #explosivearrows:drill_protected run setblock ~3 ~7 ~1 minecraft:air destroy
 execute at @s unless block ~3 ~7 ~2 #explosivearrows:drill_protected run setblock ~3 ~7 ~2 minecraft:air destroy
 execute at @s unless block ~0 ~8 ~0 #explosivearrows:drill_protected run setblock ~0 ~8 ~0 minecraft:air destroy
-
-execute at @s run playsound minecraft:entity.generic.explode master @a[distance=..48] ~ ~ ~ 1 1
-execute at @s run particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 0 1
-
-kill @s

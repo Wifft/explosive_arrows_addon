@@ -1,3 +1,5 @@
+tag @s add arrow.hit
+
 execute if entity @s[tag=arrow.explosive] run function explosivearrows:types/explosive/on_hit
 execute if entity @s[tag=arrow.drill] run function explosivearrows:types/drill/on_hit
 execute if entity @s[tag=arrow.atomic] run function explosivearrows:types/atomic/on_hit
