@@ -1,0 +1,4 @@
+{
+    "death.attack.drill_blast": "%1$s was shredded by a drill blast",
+    "death.attack.drill_blast.player": "%1$s was shredded by %2$s's drill blast"
+}
