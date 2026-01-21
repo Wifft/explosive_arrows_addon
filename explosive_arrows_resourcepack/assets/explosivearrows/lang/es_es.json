@@ -1,0 +1,4 @@
+{
+    "death.attack.drill_blast": "%1$s fue alcanzado por una flecha minera",
+    "death.attack.drill_blast.player": "%1$s fue alcanzado por la flecha minera de %2$s"
+}
