@@ -1,5 +1,5 @@
 {
-    "type": "minecraft:shaped",
+    "type": "minecraft:crafting_shaped",
     "category": "misc",
     "key": {
         "A": "minecraft:arrow", 
@@ -20,7 +20,8 @@
             },
             "minecraft:item_model": "explosivearrows:atomic_arrow",
             "minecraft:custom_data": { 
-                "arrow_type": "atomic" 
+                "arrow_type": "atomic",
+                "explosive_arrow": true
             }
         }
     }

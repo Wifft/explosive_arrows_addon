@@ -15,7 +15,8 @@
             },
             "minecraft:item_model": "explosivearrows:drill_arrow",
             "minecraft:custom_data": { 
-                "arrow_type": "drill" 
+                "arrow_type": "drill",
+                "explosive_arrow": true
             }
         }
     }

@@ -5,7 +5,14 @@
             "conditions": {
                 "damage": {
                     "type": {
-                        "is_projectile": true
+                        "direct_entity": {
+                            "type": "minecraft:arrow",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "explosive_arrow": true
+                                }
+                            }
+                        }
                     }
                 }
             }

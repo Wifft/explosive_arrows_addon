@@ -14,7 +14,8 @@
             },
             "minecraft:item_model": "explosivearrows:explosive_arrow",
             "minecraft:custom_data": { 
-                "arrow_type": "explosive" 
+                "arrow_type": "explosive",
+                "explosive_arrow": true
             }
         }
     }
